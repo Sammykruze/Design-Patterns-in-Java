@@ -1,15 +1,15 @@
-package Factory.service.Impl;
+package factory.service.Impl;
 
-import Factory.service.Computer;
+import factory.service.Computer;
 
-public class Pc implements Computer {
+public class Laptop implements Computer {
     private String ram;
     private String hdd;
     private String cpu;
     private boolean isGraphicsEnabled;
     private boolean isBluetoothEnabled;
 
-    public Pc(String ram, String hdd, String cpu, boolean isGraphicsEnabled, boolean isBluetoothEnabled) {
+    public Laptop(String ram, String hdd, String cpu, boolean isGraphicsEnabled, boolean isBluetoothEnabled) {
         this.ram = ram;
         this.hdd = hdd;
         this.cpu = cpu;

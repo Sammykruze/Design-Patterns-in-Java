@@ -1,4 +1,4 @@
-package Factory.service;
+package factory.service;
 
 public interface Computer {
      String ram();

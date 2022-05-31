@@ -1,9 +1,9 @@
-package Factory;
+package factory;
 
-import Factory.service.Computer;
-import Factory.service.Impl.Laptop;
-import Factory.service.Impl.Pc;
-import Factory.service.Impl.Server;
+import factory.service.Computer;
+import factory.service.Impl.Laptop;
+import factory.service.Impl.Pc;
+import factory.service.Impl.Server;
 
 public class ComputerFactory {
 

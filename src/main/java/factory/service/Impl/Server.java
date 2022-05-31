@@ -1,6 +1,6 @@
-package Factory.service.Impl;
+package factory.service.Impl;
 
-import Factory.service.Computer;
+import factory.service.Computer;
 
 public class Server implements Computer {
     private String ram;

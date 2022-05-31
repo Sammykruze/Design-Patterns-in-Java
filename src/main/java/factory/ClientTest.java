@@ -1,6 +1,6 @@
-package Factory;
+package factory;
 
-import Factory.service.Computer;
+import factory.service.Computer;
 
 public class ClientTest {
     public static void main(String[] args){
