@@ -16,5 +16,8 @@ public class Test {
 
         Laptop laptop5 = new Laptop.LaptopBuilder("14 GB","120GB","2.2HGZ").setBluetoothEnabled(true).build();
         System.out.println("Laptop config: " + laptop5);
+
+        Laptop laptop6 = new Laptop.LaptopBuilder("14 GB","120GB","2.2HGZ").setBluetoothEnabled(true).build();
+        System.out.println("Laptop config: " + laptop6);
     }
 }
